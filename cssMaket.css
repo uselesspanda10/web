@@ -1,0 +1,47 @@
+#left {
+    width: 30%;
+    float: left;
+}
+#right {
+    width: 30%;
+    float: right;
+}
+#right p{
+    float: right;
+    margin-top: 250px;
+}
+#content {
+    width: 40%;
+    margin: 0 auto;
+}
+#content p{
+    margin-top: 50px;
+}
+.poem {
+    text-align: center;
+}
+#footer {
+    clear: left;
+}
+#footer p {
+    float: right;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.poet {
+    font-style: italic;
+    float: right;
+}
+.photo {
+    float: left;
+    margin: 7px 0 7px 7px;
+    padding-right: 15px;
+}
