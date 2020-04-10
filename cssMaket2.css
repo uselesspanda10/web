@@ -52,3 +52,14 @@ img {
 #footer p {
     float: right;
 }
+@media print {
+
+    #right, #left, #footer, img, #menu {display: none}
+    
+    #content {
+    width: auto;
+    background-color: #FFFFFF;
+    font-family: Arial;
+    color: #000000;
+    }
+}
