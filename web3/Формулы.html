@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Пандемия COVID-19</title>
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="http://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="COVID.html">Главная</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Формулы</li>
+        </ol>
+      </nav>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Формула №1
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <math>
+                <mstyle displaystyle=’true’>
+                  <mfrac>
+                    <mrow>
+                      <mi>y</mi>
+                      <mo>&PlusMinus;</mo>
+                      <msqrt>
+                        <msup>
+                            <mi>y</mi>
+                            <mfenced>
+                              <mrow>
+                                <mi>x</mi>
+                                <mo> + </mo>
+                                <mn> 2 </mn>
+                              </mrow>
+                            </mfenced>
+                        </msup>
+                        <mo>-</mo>
+                        <mn>4</mn>
+                        <mi>x</mi>
+                      </msqrt>
+                    </mrow>
+                    <mrow>
+                      <mn>2</mn>
+                      <mi>x</mi>
+                    </mrow>
+                  </mfrac>
+                </mstyle>
+              </math>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Формула №2
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <math>
+                <mstyle displaystyle=’true’>
+                  <mo>&int;</mo>
+                  <mfrac>
+                    <mrow>
+                      <mo>&dd;</mo>
+                      <mi>x</mi>
+                    </mrow>
+                    <msqrt>
+                      <mrow>
+                        <msup>
+                          <mi>x</mi>
+                          <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mrow>
+                          <mn>6</mn>
+                          <mi>x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>8</mn>
+                      </mrow>
+                    </msqrt>
+                  </mfrac>
+                </mstyle>
+              </math>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Формула №3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <math>
+                <mstyle displaystyle=’true’>
+                  <munderover>
+                    <mo>lim</mo>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>&Rarr;</mo>
+                        <mi>&infin;</mi>
+                    </mrow>
+                  </munderover>
+                  <mrow>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>4</mn>
+                    </msup>
+                    <mo>+</mo>
+                    <msqrt>
+                      <msup>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                      </msup>
+                      <mo>-</mo>
+                      <mn>10</mn>
+                      <mi>x</mi>
+                    </msqrt>
+                  </mrow>
+                </mstyle>
+            </math>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
